@@ -14,6 +14,9 @@ public class hashmaptest {
         numbers.put("One",10);
         numbers.put("Two",20);
         numbers.put("Three",30);
+        numbers.put("Four",40);
+        numbers.put("Five",50);
+        numbers.put("Six",60);
         System.out.println(numbers.entrySet());
 
         for(Map.Entry m:numbers.entrySet()){
